@@ -1,11 +1,11 @@
 pipeline
 {
-    agnt any
+    agent any
         stages
     {
         stage('Build')
         {
-            steos
+            steps
             {
                 sh 'mvn clean install' echo 'Build Stage Successful'
             }
